@@ -1,0 +1,16 @@
+[project]
+name = "assignment-06-deep-feelings-yq-coder-main"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "en-core-web-md",
+    "jupyter>=1.1.1",
+    "nltk>=3.9.4",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "scikit-learn>=1.8.0",
+    "spacy>=3.8.14",
+]
+
+[tool.uv.sources]
+en-core-web-md = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl"}
